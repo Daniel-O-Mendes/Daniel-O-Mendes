@@ -1,0 +1,1 @@
+É uma adaptação do pedido de namoro do TikTok. O projeto consiste em perguntar ao destinatário se está com saudades, mas não é possível dizer não, após redirecionamento forçado é exibido uma mensagem juntamente a um QRcode, ao escaneá-lo será enviado para o whatsapp do remetente com uma mensagem pronta.
