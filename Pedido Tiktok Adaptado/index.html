@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+
+        <title>decisao</title>
+        <meta charset="utf-8"/>
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="tamplate.css" />
+        <link rel="icon" href="icone.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+   
+
+    </head>
+    
+    
+    <Body>
+
+        <div class="container">
+            
+            <div class="texto">
+                <p>Morrendo de Saudades?</p> <br>
+            </div>
+            
+
+            <div class="start">
+            
+                <button onclick="ativarContagem()"id="change">Não</button> 
+                <button  class="hidden" id="move">Não</button>
+               
+            </div>
+        </div>
+        
+        
+    </Body>
+
+    <script language=javascript type="text/javascript">
+     
+        $("#change").click(function(){
+            $("#change").html("Ativando Modo Tóxico!");
+            $("#move").show();
+            
+        });
+
+
+        $("#move").hover(function(){
+            change();
+        });
+
+        function change (){
+            var i = Math.floor(Math.random()*900)+1;
+            var j = Math.floor(Math.random()*400)+1;
+            $("#move").css({top: j+'px', lef:    i+'px'});  
+        };
+
+        function ativarContagem(){
+            setTimeout(function() {
+                window.location.href = "secundaria.html";
+            }, 10000);
+        }
+        
+    </script>
+</html>

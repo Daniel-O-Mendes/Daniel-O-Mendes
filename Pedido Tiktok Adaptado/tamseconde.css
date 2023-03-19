@@ -1,0 +1,20 @@
+
+body{
+    background-color:rgb(0, 0, 0);
+    
+}
+
+.container{
+    text-align: center;
+}
+
+
+p{
+    font-size: clamp(0.75em, 1em + 1vw, 1.70em); /* tamanho minimo/desejavel/tamanho maximo */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+}  
+
+img{
+    width: min(50%,500px);
+} 
