@@ -1,6 +1,6 @@
 <div>
   <a href="https://github.com/Daniel-O-Mendes">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Daniel-O-Mendes&show_icons=true&theme=blue-green">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Daniel-O-Mendes&show_icons=true&theme=dark">
 </div>
 
 ##
