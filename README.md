@@ -1,4 +1,4 @@
-### Seja bem Vindo! Navegue através das profundesas 
+### Seja bem Vindo!
 
 
 <div>
